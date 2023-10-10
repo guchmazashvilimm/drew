@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Gloria+Hallelujah&family=Young+Serif&display=swap');
+
+.logo{
+    justify-content: center !important;
+    align-items: center;
+}
+
+nav{
+    font-family: 'Young Serif', serif;
+    color: black;
+}
+nav li {
+    padding:10px;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item{
+    display: flex;
+}
+.dropdown-menu img{
+    padding-right:10px ;
+    display: none;
+    width: 40px;
+}
+.garage{
+    color: #BEADFA;
+}
+.dropdown-menu li:hover img{
+    display:inherit;
+}
+section{
+    width: 100%;
+    height: 300px;
+}
+.logo-img{
+    margin-right: 150px;
+    justify-content: center !important;
+    justify-items: center;
+}
+.main-heading{
+    font-family: 'Gloria Hallelujah', cursive;
+    width: 100%;
+}
+.main-heading h1{
+    font-size: 5rem;
+    float: right;
+}
+.cards-section{
+    display: flex;
+    margin: 3%;
+}
+.card{
+    margin: 20px;
+    border:none;
+}
+.card:hover{
+    border: 2px #E9B824 solid;
+}
+.c-name{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card-text{
+    margin-top: 10px;
+    float: right;
+}
+.card-text,.c-name{
+    visibility: hidden;
+}
+.card:hover .card-text{
+    visibility: visible;
+}
+.card:hover .c-name{
+    visibility: visible;
+}
+.garage-sale{
+    display: flex;
+}
+.link{
+    padding: 200px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #BEADFA;
+    width: 90%;
+    float: right;
+    font-size: 2rem;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.title{
+    justify-content: center !important;
+    padding-top: 200px;
+    align-items: center !important;
+    text-align: center !important;
+   color: black !important;
+
+}
+.title h6{
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transform: rotate(270deg);
+}
+.shop-all{
+    display: flex;
+    margin-top: 20px;
+}
+.shop-all title{
+    transform: rotate(90deg);
+}
+.shop-all img{
+    width: 80%;
+    padding: 10px;
+    
+}
+.shop-all h6{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.contact{
+    padding: 100px;
+    background-color: hsl(45, 79%, 49%);
+}
+.input-group{
+    width: 40%;
+}
+.footer{
+    display: flex;
+    padding: 50px;
+
+}
+.footer-title{
+    color: black;
+}
+.footer li a{
+    color: gray;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: larger;
+
+}
+.footer li{
+    list-style:none;
+}
+.footer-section{
+    padding: 50px;
+}
